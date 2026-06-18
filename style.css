@@ -264,6 +264,14 @@ body {
   left: 0;
   color: var(--accent);
 }
+.inline-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-family: "JetBrains Mono", monospace;
+  font-size: .82em;
+  border-bottom: 1px dashed var(--accent);
+}
+.inline-link:hover { border-bottom-style: solid; }
 
 /* ===== Tags ===== */
 .tags { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; }
